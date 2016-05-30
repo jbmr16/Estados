@@ -83,10 +83,9 @@
 		61CD3D191CFCD6E400EAEA73 /* Estados */ = {
 			isa = PBXGroup;
 			children = (
-				61CD3D1E1CFCD6E400EAEA73 /* AppDelegate.h */,
-				61CD3D1F1CFCD6E400EAEA73 /* AppDelegate.m */,
-				61CD3D241CFCD6E400EAEA73 /* ViewController.h */,
-				61CD3D251CFCD6E400EAEA73 /* ViewController.m */,
+				61CD3D451CFCD72D00EAEA73 /* Cell */,
+				61CD3D441CFCD71900EAEA73 /* Main */,
+				61CD3D431CFCD6EF00EAEA73 /* Controllers */,
 				61CD3D271CFCD6E400EAEA73 /* Main.storyboard */,
 				61CD3D2A1CFCD6E400EAEA73 /* Images.xcassets */,
 				61CD3D2C1CFCD6E400EAEA73 /* LaunchScreen.xib */,
@@ -120,6 +119,31 @@
 				61CD3D381CFCD6E400EAEA73 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61CD3D431CFCD6EF00EAEA73 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				61CD3D241CFCD6E400EAEA73 /* ViewController.h */,
+				61CD3D251CFCD6E400EAEA73 /* ViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		61CD3D441CFCD71900EAEA73 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				61CD3D1E1CFCD6E400EAEA73 /* AppDelegate.h */,
+				61CD3D1F1CFCD6E400EAEA73 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		61CD3D451CFCD72D00EAEA73 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
