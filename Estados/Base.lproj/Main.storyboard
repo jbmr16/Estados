@@ -31,6 +31,7 @@
                         <segue destination="W7j-5W-O5B" kind="push" identifier="CitySelect" id="Vz1-x9-b5K"/>
                         <segue destination="OuM-5i-reF" kind="push" identifier="MichSelect" id="hjb-zz-x9j"/>
                         <segue destination="1yO-fA-5at" kind="push" identifier="ZactSelect" id="kVT-rp-gxo"/>
+                        <segue destination="PIc-kF-ggX" kind="push" identifier="SinaSelect" id="uqw-in-UTh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -231,6 +232,52 @@
             </objects>
             <point key="canvasLocation" x="1122" y="1583"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="m1j-OB-gNE">
+            <objects>
+                <navigationController id="YAG-Ax-wrr" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="De7-fv-reD"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="bKg-cO-Zmu">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="PIc-kF-ggX" kind="relationship" relationship="rootViewController" id="rf8-TA-af9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mCH-DC-vwS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="751" y="2221"/>
+        </scene>
+        <!--Sina-->
+        <scene sceneID="8db-q8-tJ0">
+            <objects>
+                <viewController id="PIc-kF-ggX" customClass="Sina" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7SS-At-x0M">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="gu3-Om-nQK" userLabel="tblsina">
+                                <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="PIc-kF-ggX" id="qoy-d7-xiy"/>
+                                    <outlet property="delegate" destination="PIc-kF-ggX" id="wwN-XL-odT"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rhi-bX-lz7"/>
+                    <connections>
+                        <segue destination="DWJ-w5-kSo" kind="push" identifier="SinaDetails" id="RP4-ep-Nqc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S4H-RR-05m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1128" y="2221"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -239,8 +286,9 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="hjb-zz-x9j"/>
-        <segue reference="Vz1-x9-b5K"/>
         <segue reference="kVT-rp-gxo"/>
-        <segue reference="Na8-vA-pHa"/>
+        <segue reference="uqw-in-UTh"/>
+        <segue reference="Vz1-x9-b5K"/>
+        <segue reference="RP4-ep-Nqc"/>
     </inferredMetricsTieBreakers>
 </document>

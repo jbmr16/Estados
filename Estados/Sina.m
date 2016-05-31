@@ -1,14 +1,14 @@
 //
-//  Zact.m
+//  Sina.m
 //  Estados
 //
 //  Created by System Administrator on 5/30/16.
 //  Copyright (c) 2016 maciel. All rights reserved.
 //
 
-#import "Zact.h"
+#import "Sina.h"
 
-@interface Zact ()
+@interface Sina ()
 @property NSMutableArray *cityTitles;
 @property NSMutableArray *cityPhotos;
 @property NSMutableArray *cityDetails;
@@ -18,17 +18,15 @@
 @property NSString *cityPhotoSelected;
 @property NSString *cityDetailsSelected;
 
-
 @end
 
-@implementation Zact
+@implementation Sina
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-     [self initController];
-    
+       [self initController];    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,14 +34,16 @@
     // Dispose of any resources that can be recreated.
 }
 
+
+
 - (void)initController {
     
-    self.cityTitles   = [[NSMutableArray alloc] initWithObjects: @"Zacatecas", @"Jerez", @"Fresnillo", @"Villanueva",@"Rio Grande",nil];
+    self.cityTitles   = [[NSMutableArray alloc] initWithObjects: @"Culiacan", @"Guamuchil", @"Guasave", @"Los Mochis",@"Mazatlan",nil];
     
-    self.cityDetails   = [[NSMutableArray alloc] initWithObjects: @"En México, la ciudad de Zacatecas es la capital del estado de Zacatecas, fundada el 8 de septiembre de 1546 a partir del descubrimiento de las ricas minas de plata por Juan de Tolosa", @"Jerez de García Salinas es la cabecera municipal del municipio de Jerez en el estado mexicano de Zacatecas. Se encuentra ubicado en el centro del estado, a 56 km al sudoeste de la ciudad de Zacatecas", @"Fresnillo de González Echeverría, o simplemente Ciudad de Fresnillo, es la cabecera municipal del municipio de Fresnillo,", @"Villanueva es una población del estado de Zacatecas, México. Se encuentra y es la cabecera municipal del Municipio de Villanueva",@"Río Grande es la cuarta ciudad más grande del Estado de Zacatecas, México; y la tercera aglomeración más importante tanto económica como políticamente.",nil];
+    self.cityDetails   = [[NSMutableArray alloc] initWithObjects: @"Culiacán, oficialmente Culiacán Rosales, es una ciudad del noroeste de México, capital y ciudad más grande del Estado de Sinaloa y del Municipio de Culiacán.", @"Guamúchil es una ciudad del estado de Sinaloa, México y es la quinta ciudad más grande de la entidad. Igualmente, es la cabecera del municipio de Salvador", @"Guasave es una ciudad del estado mexicano de Sinaloa; es la cuarta en orden de importancia en el estado y cabecera del municipio del mismo nombre.", @"Los Mochis (del cáhita: mochim, pl. de mochic, 'tortuga de tierra') es una ciudad del noroeste de México, ubicada en el estado de Sinaloa, es la tercera en orden",@"Disfruta del sol, la playa y los bellos paisajes que ofrece este tradicional puerto, ubicado al sur del estado de Sinaloa. Aquí podrás tanto relajarte, como disfrutar.",nil];
     
     
-    self.cityPhotos   = [[NSMutableArray alloc] initWithObjects: @"zac.jpg", @"jer.jpg", @"fres.jpg", @"vill.jpg",@"rio.jpg",nil];
+    self.cityPhotos   = [[NSMutableArray alloc] initWithObjects: @"cul.jpg", @"guam.jpg", @"guas.jpg", @"lmch.jpg",@"maz.jpg",nil];
     
     
 }
@@ -65,11 +65,11 @@
 //-------------------------------------------------------------------------------
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     //Initialize cells
-    Zactcell *cell = (Zactcell *)[tableView dequeueReusableCellWithIdentifier:@"Zactcell"];
+    Sinacell *cell = (Sinacell *)[tableView dequeueReusableCellWithIdentifier:@"Sinacell"];
     
     if (cell == nil) {
-        [tableView registerNib:[UINib nibWithNibName:@"Zactcell" bundle:nil] forCellReuseIdentifier:@"Zactcell"];
-        cell = [tableView dequeueReusableCellWithIdentifier:@"Zactcell"];
+        [tableView registerNib:[UINib nibWithNibName:@"Sinacell" bundle:nil] forCellReuseIdentifier:@"Sinacell"];
+        cell = [tableView dequeueReusableCellWithIdentifier:@"Sinacell"];
     }
     //Fill cell with info from arrays
     cell.lblcity.text = self.cityTitles[indexPath.row];
@@ -84,7 +84,7 @@
     self.cityPhotoSelected = self.cityPhotos[indexPath.row];
     
     
-    [self performSegueWithIdentifier:@"ZactDetails" sender:self];
+    [self performSegueWithIdentifier:@"SinaDetails" sender:self];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
@@ -96,6 +96,7 @@
         destination.CityDetails = self.cityDetailsSelected;
     }
 }
+
 
 
 

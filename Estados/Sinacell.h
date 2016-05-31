@@ -1,5 +1,5 @@
 //
-//  Zactcell.h
+//  Sinacell.h
 //  Estados
 //
 //  Created by System Administrator on 5/30/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Zactcell : UITableViewCell
+@interface Sinacell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UIImageView *imgcity;
 @property (strong, nonatomic) IBOutlet UILabel *lblcity;
 

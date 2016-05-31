@@ -82,7 +82,7 @@
         case 2:
             [self performSegueWithIdentifier:@"ZactSelect" sender:self];           break;
         case 3:
-            [self performSegueWithIdentifier:@"SinSelect" sender:self];           break;
+            [self performSegueWithIdentifier:@"SinaSelect" sender:self];           break;
         case 4:
             [self performSegueWithIdentifier:@"ChiSelect" sender:self];           break;
             
