@@ -29,6 +29,8 @@
                     <navigationItem key="navigationItem" id="9Ts-9w-WvM"/>
                     <connections>
                         <segue destination="W7j-5W-O5B" kind="push" identifier="CitySelect" id="Vz1-x9-b5K"/>
+                        <segue destination="OuM-5i-reF" kind="push" identifier="MichSelect" id="hjb-zz-x9j"/>
+                        <segue destination="1yO-fA-5at" kind="push" identifier="ZactSelect" id="kVT-rp-gxo"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -50,12 +52,12 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oid-wZ-9RM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="745" y="263"/>
+            <point key="canvasLocation" x="745" y="290"/>
         </scene>
         <!--City-->
         <scene sceneID="RkX-EE-gnO">
             <objects>
-                <viewController id="W7j-5W-O5B" userLabel="City" customClass="City" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="City" id="W7j-5W-O5B" userLabel="City" customClass="City" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ACb-Fo-Xy3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -137,6 +139,98 @@
             </objects>
             <point key="canvasLocation" x="-7" y="292"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Z1P-YV-4HE">
+            <objects>
+                <navigationController id="KTq-vp-fdB" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="5yu-jO-61j"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lgS-k0-PAx">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="OuM-5i-reF" kind="relationship" relationship="rootViewController" id="dY2-w8-r38"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tdy-Fs-UPX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="935"/>
+        </scene>
+        <!--Mich-->
+        <scene sceneID="ICX-CN-tY9">
+            <objects>
+                <viewController id="OuM-5i-reF" customClass="Mich" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="u3n-X5-Mz0">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Et3-Kv-uI1" userLabel="tblmich">
+                                <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="OuM-5i-reF" id="onc-5N-QxY"/>
+                                    <outlet property="delegate" destination="OuM-5i-reF" id="r9y-vm-qAC"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="OY7-9S-2gg"/>
+                    <connections>
+                        <segue destination="DWJ-w5-kSo" kind="push" identifier="MichDetails" id="BE4-Ld-dUv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHz-dT-XYx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1122" y="935"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="ueT-mC-jQ2">
+            <objects>
+                <navigationController id="cH0-TY-oGK" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="HWF-LD-wqA"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sOG-a8-ejJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="1yO-fA-5at" kind="relationship" relationship="rootViewController" id="7r6-uz-DfS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tqM-Lo-QMj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="745" y="1583"/>
+        </scene>
+        <!--Zact-->
+        <scene sceneID="DR2-WR-8Sa">
+            <objects>
+                <viewController id="1yO-fA-5at" customClass="Zact" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Bc-mG-661">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="e3Q-W1-kad" userLabel="tblzact">
+                                <rect key="frame" x="0.0" y="64" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="1yO-fA-5at" id="7am-eU-tHl"/>
+                                    <outlet property="delegate" destination="1yO-fA-5at" id="tPe-ZN-fKV"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="0Ls-pJ-v4F"/>
+                    <connections>
+                        <segue destination="DWJ-w5-kSo" kind="push" identifier="ZactDetails" id="Na8-vA-pHa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AR5-3z-Wcd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1122" y="1583"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
@@ -144,6 +238,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="hjb-zz-x9j"/>
         <segue reference="Vz1-x9-b5K"/>
+        <segue reference="kVT-rp-gxo"/>
+        <segue reference="Na8-vA-pHa"/>
     </inferredMetricsTieBreakers>
 </document>

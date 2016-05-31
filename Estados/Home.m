@@ -74,7 +74,23 @@
 
     self.stPhotoSelected = self.statePhotos[indexPath.row];
     
-    [self performSegueWithIdentifier:@"CitySelect" sender:self];
+    switch (indexPath.row) {
+        case 0:
+            [self performSegueWithIdentifier:@"CitySelect" sender:self];           break;
+        case 1:
+            [self performSegueWithIdentifier:@"MichSelect" sender:self];           break;
+        case 2:
+            [self performSegueWithIdentifier:@"ZactSelect" sender:self];           break;
+        case 3:
+            [self performSegueWithIdentifier:@"SinSelect" sender:self];           break;
+        case 4:
+            [self performSegueWithIdentifier:@"ChiSelect" sender:self];           break;
+            
+        default:
+            break;
+    }
+    
+    //[self performSegueWithIdentifier:@"CitySelect" sender:self];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

@@ -13,6 +13,22 @@
 		619C90D31CFD0B500018B2E1 /* tlq.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90CE1CFD0B500018B2E1 /* tlq.jpg */; };
 		619C90D41CFD0B500018B2E1 /* zpn.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90CF1CFD0B500018B2E1 /* zpn.jpg */; };
 		619C90D81CFD14D80018B2E1 /* CityDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C90D71CFD14D80018B2E1 /* CityDetails.m */; };
+		619C90DB1CFD1F220018B2E1 /* Mich.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C90DA1CFD1F220018B2E1 /* Mich.m */; };
+		619C90DF1CFD1F710018B2E1 /* Michcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C90DD1CFD1F710018B2E1 /* Michcell.m */; };
+		619C90E01CFD1F710018B2E1 /* Michcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619C90DE1CFD1F710018B2E1 /* Michcell.xib */; };
+		619C90E61CFD26410018B2E1 /* apatz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90E11CFD26410018B2E1 /* apatz.jpg */; };
+		619C90E71CFD26410018B2E1 /* laz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90E21CFD26410018B2E1 /* laz.jpg */; };
+		619C90E81CFD26410018B2E1 /* mor.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90E31CFD26410018B2E1 /* mor.jpg */; };
+		619C90E91CFD26410018B2E1 /* patz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90E41CFD26410018B2E1 /* patz.jpg */; };
+		619C90EA1CFD26410018B2E1 /* zam.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90E51CFD26410018B2E1 /* zam.jpg */; };
+		619C90ED1CFD2FD20018B2E1 /* Zact.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C90EC1CFD2FD20018B2E1 /* Zact.m */; };
+		619C90F11CFD30140018B2E1 /* Zactcell.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C90EF1CFD30140018B2E1 /* Zactcell.m */; };
+		619C90F21CFD30140018B2E1 /* Zactcell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619C90F01CFD30140018B2E1 /* Zactcell.xib */; };
+		619C90F81CFD35670018B2E1 /* fres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90F31CFD35670018B2E1 /* fres.jpg */; };
+		619C90F91CFD35670018B2E1 /* jer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90F41CFD35670018B2E1 /* jer.jpg */; };
+		619C90FA1CFD35670018B2E1 /* rio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90F51CFD35670018B2E1 /* rio.jpg */; };
+		619C90FB1CFD35670018B2E1 /* vill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90F61CFD35670018B2E1 /* vill.jpg */; };
+		619C90FC1CFD35670018B2E1 /* zac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C90F71CFD35670018B2E1 /* zac.jpg */; };
 		61CD3D1D1CFCD6E400EAEA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CD3D1C1CFCD6E400EAEA73 /* main.m */; };
 		61CD3D201CFCD6E400EAEA73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CD3D1F1CFCD6E400EAEA73 /* AppDelegate.m */; };
 		61CD3D231CFCD6E400EAEA73 /* Estados.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61CD3D211CFCD6E400EAEA73 /* Estados.xcdatamodeld */; };
@@ -51,6 +67,26 @@
 		619C90CF1CFD0B500018B2E1 /* zpn.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zpn.jpg; path = imgs/zpn.jpg; sourceTree = "<group>"; };
 		619C90D61CFD14D80018B2E1 /* CityDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityDetails.h; sourceTree = "<group>"; };
 		619C90D71CFD14D80018B2E1 /* CityDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityDetails.m; sourceTree = "<group>"; };
+		619C90D91CFD1F220018B2E1 /* Mich.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mich.h; sourceTree = "<group>"; };
+		619C90DA1CFD1F220018B2E1 /* Mich.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Mich.m; sourceTree = "<group>"; };
+		619C90DC1CFD1F710018B2E1 /* Michcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Michcell.h; sourceTree = "<group>"; };
+		619C90DD1CFD1F710018B2E1 /* Michcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Michcell.m; sourceTree = "<group>"; };
+		619C90DE1CFD1F710018B2E1 /* Michcell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Michcell.xib; sourceTree = "<group>"; };
+		619C90E11CFD26410018B2E1 /* apatz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = apatz.jpg; path = imgs/apatz.jpg; sourceTree = "<group>"; };
+		619C90E21CFD26410018B2E1 /* laz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = laz.jpg; path = imgs/laz.jpg; sourceTree = "<group>"; };
+		619C90E31CFD26410018B2E1 /* mor.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mor.jpg; path = imgs/mor.jpg; sourceTree = "<group>"; };
+		619C90E41CFD26410018B2E1 /* patz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = patz.jpg; path = imgs/patz.jpg; sourceTree = "<group>"; };
+		619C90E51CFD26410018B2E1 /* zam.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zam.jpg; path = imgs/zam.jpg; sourceTree = "<group>"; };
+		619C90EB1CFD2FD10018B2E1 /* Zact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zact.h; sourceTree = "<group>"; };
+		619C90EC1CFD2FD20018B2E1 /* Zact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zact.m; sourceTree = "<group>"; };
+		619C90EE1CFD30140018B2E1 /* Zactcell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Zactcell.h; sourceTree = "<group>"; };
+		619C90EF1CFD30140018B2E1 /* Zactcell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Zactcell.m; sourceTree = "<group>"; };
+		619C90F01CFD30140018B2E1 /* Zactcell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Zactcell.xib; sourceTree = "<group>"; };
+		619C90F31CFD35670018B2E1 /* fres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = fres.jpg; path = imgs/fres.jpg; sourceTree = "<group>"; };
+		619C90F41CFD35670018B2E1 /* jer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = jer.jpg; path = imgs/jer.jpg; sourceTree = "<group>"; };
+		619C90F51CFD35670018B2E1 /* rio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = rio.jpg; path = imgs/rio.jpg; sourceTree = "<group>"; };
+		619C90F61CFD35670018B2E1 /* vill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = vill.jpg; path = imgs/vill.jpg; sourceTree = "<group>"; };
+		619C90F71CFD35670018B2E1 /* zac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = zac.jpg; path = imgs/zac.jpg; sourceTree = "<group>"; };
 		61CD3D171CFCD6E400EAEA73 /* Estados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CD3D1B1CFCD6E400EAEA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61CD3D1C1CFCD6E400EAEA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -101,6 +137,16 @@
 		619C90D51CFD14A70018B2E1 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				619C90F31CFD35670018B2E1 /* fres.jpg */,
+				619C90F41CFD35670018B2E1 /* jer.jpg */,
+				619C90F51CFD35670018B2E1 /* rio.jpg */,
+				619C90F61CFD35670018B2E1 /* vill.jpg */,
+				619C90F71CFD35670018B2E1 /* zac.jpg */,
+				619C90E11CFD26410018B2E1 /* apatz.jpg */,
+				619C90E21CFD26410018B2E1 /* laz.jpg */,
+				619C90E31CFD26410018B2E1 /* mor.jpg */,
+				619C90E41CFD26410018B2E1 /* patz.jpg */,
+				619C90E51CFD26410018B2E1 /* zam.jpg */,
 				619C90CB1CFD0B500018B2E1 /* gdl.jpg */,
 				619C90CC1CFD0B500018B2E1 /* oct.jpg */,
 				619C90CD1CFD0B500018B2E1 /* ptov.jpg */,
@@ -184,6 +230,10 @@
 				61CD3D5B1CFCF8AA00EAEA73 /* City.m */,
 				619C90D61CFD14D80018B2E1 /* CityDetails.h */,
 				619C90D71CFD14D80018B2E1 /* CityDetails.m */,
+				619C90D91CFD1F220018B2E1 /* Mich.h */,
+				619C90DA1CFD1F220018B2E1 /* Mich.m */,
+				619C90EB1CFD2FD10018B2E1 /* Zact.h */,
+				619C90EC1CFD2FD20018B2E1 /* Zact.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -206,6 +256,12 @@
 				61CD3D551CFCF86100EAEA73 /* cellcity.h */,
 				61CD3D561CFCF86100EAEA73 /* cellcity.m */,
 				61CD3D571CFCF86100EAEA73 /* cellcity.xib */,
+				619C90DC1CFD1F710018B2E1 /* Michcell.h */,
+				619C90DD1CFD1F710018B2E1 /* Michcell.m */,
+				619C90DE1CFD1F710018B2E1 /* Michcell.xib */,
+				619C90EE1CFD30140018B2E1 /* Zactcell.h */,
+				619C90EF1CFD30140018B2E1 /* Zactcell.m */,
+				619C90F01CFD30140018B2E1 /* Zactcell.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -293,18 +349,30 @@
 				619C90D11CFD0B500018B2E1 /* oct.jpg in Resources */,
 				619C90D21CFD0B500018B2E1 /* ptov.jpg in Resources */,
 				61CD3D541CFCEE2A00EAEA73 /* zac.png in Resources */,
+				619C90E71CFD26410018B2E1 /* laz.jpg in Resources */,
+				619C90FB1CFD35670018B2E1 /* vill.jpg in Resources */,
+				619C90E81CFD26410018B2E1 /* mor.jpg in Resources */,
 				61CD3D511CFCEE2A00EAEA73 /* chi.jpg in Resources */,
+				619C90E91CFD26410018B2E1 /* patz.jpg in Resources */,
 				61CD3D591CFCF86100EAEA73 /* cellcity.xib in Resources */,
 				61CD3D291CFCD6E400EAEA73 /* Main.storyboard in Resources */,
+				619C90FA1CFD35670018B2E1 /* rio.jpg in Resources */,
 				61CD3D2E1CFCD6E400EAEA73 /* LaunchScreen.xib in Resources */,
 				619C90D01CFD0B500018B2E1 /* gdl.jpg in Resources */,
 				61CD3D4C1CFCE07300EAEA73 /* jal.png in Resources */,
 				619C90D41CFD0B500018B2E1 /* zpn.jpg in Resources */,
 				61CD3D531CFCEE2A00EAEA73 /* sin.png in Resources */,
+				619C90E61CFD26410018B2E1 /* apatz.jpg in Resources */,
+				619C90F91CFD35670018B2E1 /* jer.jpg in Resources */,
 				61CD3D4A1CFCDA4C00EAEA73 /* cellHome.xib in Resources */,
 				619C90D31CFD0B500018B2E1 /* tlq.jpg in Resources */,
 				61CD3D2B1CFCD6E400EAEA73 /* Images.xcassets in Resources */,
+				619C90FC1CFD35670018B2E1 /* zac.jpg in Resources */,
+				619C90EA1CFD26410018B2E1 /* zam.jpg in Resources */,
+				619C90E01CFD1F710018B2E1 /* Michcell.xib in Resources */,
 				61CD3D521CFCEE2A00EAEA73 /* mich.png in Resources */,
+				619C90F81CFD35670018B2E1 /* fres.jpg in Resources */,
+				619C90F21CFD30140018B2E1 /* Zactcell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,10 +394,14 @@
 				61CD3D201CFCD6E400EAEA73 /* AppDelegate.m in Sources */,
 				61CD3D581CFCF86100EAEA73 /* cellcity.m in Sources */,
 				61CD3D261CFCD6E400EAEA73 /* Home.m in Sources */,
+				619C90DF1CFD1F710018B2E1 /* Michcell.m in Sources */,
 				61CD3D491CFCDA4C00EAEA73 /* cellHome.m in Sources */,
 				61CD3D5C1CFCF8AA00EAEA73 /* City.m in Sources */,
+				619C90DB1CFD1F220018B2E1 /* Mich.m in Sources */,
+				619C90ED1CFD2FD20018B2E1 /* Zact.m in Sources */,
 				61CD3D1D1CFCD6E400EAEA73 /* main.m in Sources */,
 				619C90D81CFD14D80018B2E1 /* CityDetails.m in Sources */,
+				619C90F11CFD30140018B2E1 /* Zactcell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
