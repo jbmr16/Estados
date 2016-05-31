@@ -37,6 +37,14 @@
 		619C910C1CFD3A120018B2E1 /* guas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C91071CFD3A120018B2E1 /* guas.jpg */; };
 		619C910D1CFD3A120018B2E1 /* lmch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C91081CFD3A120018B2E1 /* lmch.jpg */; };
 		619C910E1CFD3A120018B2E1 /* maz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C91091CFD3A120018B2E1 /* maz.jpg */; };
+		619C91111CFD3B3A0018B2E1 /* Chihua.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C91101CFD3B3A0018B2E1 /* Chihua.m */; };
+		619C91151CFD3B600018B2E1 /* Chihuacell.m in Sources */ = {isa = PBXBuildFile; fileRef = 619C91131CFD3B600018B2E1 /* Chihuacell.m */; };
+		619C91161CFD3B600018B2E1 /* Chihuacell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 619C91141CFD3B600018B2E1 /* Chihuacell.xib */; };
+		619C911C1CFD3F700018B2E1 /* chihua.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C91171CFD3F700018B2E1 /* chihua.jpg */; };
+		619C911D1CFD3F700018B2E1 /* cuau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C91181CFD3F700018B2E1 /* cuau.jpg */; };
+		619C911E1CFD3F700018B2E1 /* deli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C91191CFD3F700018B2E1 /* deli.jpg */; };
+		619C911F1CFD3F700018B2E1 /* juar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C911A1CFD3F700018B2E1 /* juar.jpg */; };
+		619C91201CFD3F700018B2E1 /* parr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C911B1CFD3F700018B2E1 /* parr.jpg */; };
 		61CD3D1D1CFCD6E400EAEA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CD3D1C1CFCD6E400EAEA73 /* main.m */; };
 		61CD3D201CFCD6E400EAEA73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CD3D1F1CFCD6E400EAEA73 /* AppDelegate.m */; };
 		61CD3D231CFCD6E400EAEA73 /* Estados.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61CD3D211CFCD6E400EAEA73 /* Estados.xcdatamodeld */; };
@@ -105,6 +113,16 @@
 		619C91071CFD3A120018B2E1 /* guas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = guas.jpg; path = imgs/guas.jpg; sourceTree = "<group>"; };
 		619C91081CFD3A120018B2E1 /* lmch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lmch.jpg; path = imgs/lmch.jpg; sourceTree = "<group>"; };
 		619C91091CFD3A120018B2E1 /* maz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maz.jpg; path = imgs/maz.jpg; sourceTree = "<group>"; };
+		619C910F1CFD3B3A0018B2E1 /* Chihua.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chihua.h; sourceTree = "<group>"; };
+		619C91101CFD3B3A0018B2E1 /* Chihua.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chihua.m; sourceTree = "<group>"; };
+		619C91121CFD3B600018B2E1 /* Chihuacell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Chihuacell.h; sourceTree = "<group>"; };
+		619C91131CFD3B600018B2E1 /* Chihuacell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Chihuacell.m; sourceTree = "<group>"; };
+		619C91141CFD3B600018B2E1 /* Chihuacell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Chihuacell.xib; sourceTree = "<group>"; };
+		619C91171CFD3F700018B2E1 /* chihua.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = chihua.jpg; path = imgs/chihua.jpg; sourceTree = "<group>"; };
+		619C91181CFD3F700018B2E1 /* cuau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cuau.jpg; path = imgs/cuau.jpg; sourceTree = "<group>"; };
+		619C91191CFD3F700018B2E1 /* deli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = deli.jpg; path = imgs/deli.jpg; sourceTree = "<group>"; };
+		619C911A1CFD3F700018B2E1 /* juar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = juar.jpg; path = imgs/juar.jpg; sourceTree = "<group>"; };
+		619C911B1CFD3F700018B2E1 /* parr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = parr.jpg; path = imgs/parr.jpg; sourceTree = "<group>"; };
 		61CD3D171CFCD6E400EAEA73 /* Estados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CD3D1B1CFCD6E400EAEA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61CD3D1C1CFCD6E400EAEA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -155,6 +173,11 @@
 		619C90D51CFD14A70018B2E1 /* imgs */ = {
 			isa = PBXGroup;
 			children = (
+				619C91171CFD3F700018B2E1 /* chihua.jpg */,
+				619C91181CFD3F700018B2E1 /* cuau.jpg */,
+				619C91191CFD3F700018B2E1 /* deli.jpg */,
+				619C911A1CFD3F700018B2E1 /* juar.jpg */,
+				619C911B1CFD3F700018B2E1 /* parr.jpg */,
 				619C91051CFD3A120018B2E1 /* cul.jpg */,
 				619C91061CFD3A120018B2E1 /* guam.jpg */,
 				619C91071CFD3A120018B2E1 /* guas.jpg */,
@@ -259,6 +282,8 @@
 				619C90EC1CFD2FD20018B2E1 /* Zact.m */,
 				619C90FD1CFD35DA0018B2E1 /* Sina.h */,
 				619C90FE1CFD35DA0018B2E1 /* Sina.m */,
+				619C910F1CFD3B3A0018B2E1 /* Chihua.h */,
+				619C91101CFD3B3A0018B2E1 /* Chihua.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -290,6 +315,9 @@
 				619C91001CFD36020018B2E1 /* Sinacell.h */,
 				619C91011CFD36020018B2E1 /* Sinacell.m */,
 				619C91021CFD36020018B2E1 /* Sinacell.xib */,
+				619C91121CFD3B600018B2E1 /* Chihuacell.h */,
+				619C91131CFD3B600018B2E1 /* Chihuacell.m */,
+				619C91141CFD3B600018B2E1 /* Chihuacell.xib */,
 			);
 			name = Cell;
 			sourceTree = "<group>";
@@ -378,19 +406,23 @@
 				619C910B1CFD3A120018B2E1 /* guam.jpg in Resources */,
 				619C90D21CFD0B500018B2E1 /* ptov.jpg in Resources */,
 				619C910E1CFD3A120018B2E1 /* maz.jpg in Resources */,
+				619C91201CFD3F700018B2E1 /* parr.jpg in Resources */,
 				61CD3D541CFCEE2A00EAEA73 /* zac.png in Resources */,
 				619C90E71CFD26410018B2E1 /* laz.jpg in Resources */,
 				619C90FB1CFD35670018B2E1 /* vill.jpg in Resources */,
+				619C911F1CFD3F700018B2E1 /* juar.jpg in Resources */,
 				619C90E81CFD26410018B2E1 /* mor.jpg in Resources */,
 				61CD3D511CFCEE2A00EAEA73 /* chi.jpg in Resources */,
 				619C90E91CFD26410018B2E1 /* patz.jpg in Resources */,
 				61CD3D591CFCF86100EAEA73 /* cellcity.xib in Resources */,
 				619C910C1CFD3A120018B2E1 /* guas.jpg in Resources */,
 				61CD3D291CFCD6E400EAEA73 /* Main.storyboard in Resources */,
+				619C911D1CFD3F700018B2E1 /* cuau.jpg in Resources */,
 				619C90FA1CFD35670018B2E1 /* rio.jpg in Resources */,
 				61CD3D2E1CFCD6E400EAEA73 /* LaunchScreen.xib in Resources */,
 				619C90D01CFD0B500018B2E1 /* gdl.jpg in Resources */,
 				61CD3D4C1CFCE07300EAEA73 /* jal.png in Resources */,
+				619C911E1CFD3F700018B2E1 /* deli.jpg in Resources */,
 				619C90D41CFD0B500018B2E1 /* zpn.jpg in Resources */,
 				61CD3D531CFCEE2A00EAEA73 /* sin.png in Resources */,
 				619C90E61CFD26410018B2E1 /* apatz.jpg in Resources */,
@@ -398,6 +430,7 @@
 				61CD3D4A1CFCDA4C00EAEA73 /* cellHome.xib in Resources */,
 				619C90D31CFD0B500018B2E1 /* tlq.jpg in Resources */,
 				619C91041CFD36020018B2E1 /* Sinacell.xib in Resources */,
+				619C911C1CFD3F700018B2E1 /* chihua.jpg in Resources */,
 				61CD3D2B1CFCD6E400EAEA73 /* Images.xcassets in Resources */,
 				619C90FC1CFD35670018B2E1 /* zac.jpg in Resources */,
 				619C90EA1CFD26410018B2E1 /* zam.jpg in Resources */,
@@ -407,6 +440,7 @@
 				61CD3D521CFCEE2A00EAEA73 /* mich.png in Resources */,
 				619C90F81CFD35670018B2E1 /* fres.jpg in Resources */,
 				619C90F21CFD30140018B2E1 /* Zactcell.xib in Resources */,
+				619C91161CFD3B600018B2E1 /* Chihuacell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +462,12 @@
 				61CD3D231CFCD6E400EAEA73 /* Estados.xcdatamodeld in Sources */,
 				61CD3D201CFCD6E400EAEA73 /* AppDelegate.m in Sources */,
 				61CD3D581CFCF86100EAEA73 /* cellcity.m in Sources */,
+				619C91111CFD3B3A0018B2E1 /* Chihua.m in Sources */,
 				61CD3D261CFCD6E400EAEA73 /* Home.m in Sources */,
 				619C90DF1CFD1F710018B2E1 /* Michcell.m in Sources */,
 				619C91031CFD36020018B2E1 /* Sinacell.m in Sources */,
 				61CD3D491CFCDA4C00EAEA73 /* cellHome.m in Sources */,
+				619C91151CFD3B600018B2E1 /* Chihuacell.m in Sources */,
 				61CD3D5C1CFCF8AA00EAEA73 /* City.m in Sources */,
 				619C90DB1CFD1F220018B2E1 /* Mich.m in Sources */,
 				619C90ED1CFD2FD20018B2E1 /* Zact.m in Sources */,

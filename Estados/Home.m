@@ -84,7 +84,7 @@
         case 3:
             [self performSegueWithIdentifier:@"SinaSelect" sender:self];           break;
         case 4:
-            [self performSegueWithIdentifier:@"ChiSelect" sender:self];           break;
+            [self performSegueWithIdentifier:@"ChihuaSelect" sender:self];           break;
             
         default:
             break;
