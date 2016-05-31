@@ -8,9 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import "cellcity.h"    
+#import "CityDetails.h"
 
 @interface City : UIViewController
 @property NSString *stateTitle;
+@property (strong, nonatomic) IBOutlet UILabel *lblTitle;
+
+
 
 
 @end

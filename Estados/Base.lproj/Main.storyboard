@@ -12,23 +12,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="bfn-46-c8H" userLabel="tblEstados">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="30" sectionFooterHeight="30" id="bfn-46-c8H" userLabel="tblEstados">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="sectionIndexBackgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="sectionIndexBackgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
                                     <outlet property="dataSource" destination="vXZ-lx-hvc" id="lL0-Hs-20j"/>
                                     <outlet property="delegate" destination="vXZ-lx-hvc" id="qSV-aa-PqO"/>
                                 </connections>
                             </tableView>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="9Ts-9w-WvM"/>
                     <connections>
-                        <segue destination="mse-9S-TcV" kind="push" identifier="CityDetails" id="wIl-xo-hUr"/>
+                        <segue destination="W7j-5W-O5B" kind="push" identifier="CitySelect" id="Vz1-x9-b5K"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -50,23 +50,23 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Oid-wZ-9RM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="757" y="292"/>
+            <point key="canvasLocation" x="745" y="263"/>
         </scene>
         <!--City-->
         <scene sceneID="RkX-EE-gnO">
             <objects>
-                <viewController id="W7j-5W-O5B" userLabel="City" sceneMemberID="viewController">
+                <viewController id="W7j-5W-O5B" userLabel="City" customClass="City" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ACb-Fo-Xy3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="fc4-cd-rU7">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="fc4-cd-rU7" userLabel="tblcity">
                                 <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <connections>
-                                    <outlet property="dataSource" destination="W7j-5W-O5B" id="GHP-I4-IVV"/>
-                                    <outlet property="delegate" destination="W7j-5W-O5B" id="wy0-n8-U25"/>
+                                    <outlet property="dataSource" destination="W7j-5W-O5B" id="IVZ-VE-NU3"/>
+                                    <outlet property="delegate" destination="W7j-5W-O5B" id="F91-ig-qRc"/>
                                 </connections>
                             </tableView>
                         </subviews>
@@ -84,33 +84,38 @@
         <!--CityDetails-->
         <scene sceneID="5r8-6b-1Wg">
             <objects>
-                <viewController id="DWJ-w5-kSo" userLabel="CityDetails" sceneMemberID="viewController">
+                <viewController id="DWJ-w5-kSo" userLabel="CityDetails" customClass="CityDetails" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dFu-4E-5G0">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="amV-Pl-psL" userLabel="imgcitydetails">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="amV-Pl-psL" userLabel="imgcitydetails">
                                 <rect key="frame" x="0.0" y="65" width="320" height="232"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="trt-sp-tXG" userLabel="lblcityname">
-                                <rect key="frame" x="81" y="338" width="172" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="frame" x="81" y="366" width="172" height="21"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="KohinoorDevanagari-Book" family="Kohinoor Devanagari" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Axb-FH-wXH" userLabel="lblcitydetails">
-                                <rect key="frame" x="16" y="367" width="288" height="193"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Axb-FH-wXH" userLabel="lblcitydetails">
+                                <rect key="frame" x="16" y="395" width="288" height="165"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="15"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725490196078431" green="0.93725490196078431" blue="0.95686274509803926" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ihm-rU-TbH"/>
+                    <connections>
+                        <outlet property="imgCityDetails" destination="amV-Pl-psL" id="UT4-Dg-TN2"/>
+                        <outlet property="lblCityDetails" destination="Axb-FH-wXH" id="ctr-2J-fNY"/>
+                        <outlet property="lblCityName" destination="trt-sp-tXG" id="Ezg-MH-bi4"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cGC-26-R6u" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -138,4 +143,7 @@
         <simulatedOrientationMetrics key="orientation"/>
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
+    <inferredMetricsTieBreakers>
+        <segue reference="Vz1-x9-b5K"/>
+    </inferredMetricsTieBreakers>
 </document>

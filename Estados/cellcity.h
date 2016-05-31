@@ -12,4 +12,6 @@
 @property (strong, nonatomic) IBOutlet UIImageView *imgCity;
 @property (strong, nonatomic) IBOutlet UILabel *lblcity;
 
+
+
 @end

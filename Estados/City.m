@@ -9,16 +9,15 @@
 #import "City.h"
 
 @interface City ()
-@property NSMutableArray *cityTitles0;
-@property NSMutableArray *cityTitles1;
-@property NSMutableArray *cityTitles2;
-@property NSMutableArray *cityTitles3;
-@property NSMutableArray *cityTitles4;
-
-
+@property NSMutableArray *cityTitles;
 @property NSMutableArray *cityPhotos;
+@property NSMutableArray *cityDetails;
+
+
 @property NSString *cityTitleSelected;
-@property NSString *cityPhotoSelected;@end
+@property NSString *cityPhotoSelected;
+@property NSString *cityDetailsSelected;
+@end
 
 @implementation City
 
@@ -37,16 +36,12 @@
     
     
     
-    self.cityTitles0   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Zapopan", @"Tlaquepaque", @"Ocotlan",@"La Barca",nil];
-    self.cityTitles1   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Zapopan", @"Tlaquepaque", @"Ocotlan",@"La Barca",nil];
-        self.cityTitles2   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Zapopan", @"Tlaquepaque", @"Ocotlan",@"La Barca",nil];
-        self.cityTitles3   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Zapopan", @"Tlaquepaque", @"Ocotlan",@"La Barca",nil];
-        self.cityTitles4   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Zapopan", @"Tlaquepaque", @"Ocotlan",@"La Barca",nil];
+    self.cityTitles   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara", @"Zapopan", @"Tlaquepaque", @"Ocotlan",@"Puerto Vallarta",nil];
+
+    self.cityDetails   = [[NSMutableArray alloc] initWithObjects: @"Guadalajara es una ciudad y municipio mexicano, capital y urbe más poblada del estado de Jalisco.", @"Zapopan is a city and municipality located in the Mexican state of Jalisco. Part of the Guadalajara Metropolitan Area", @"San Pedro Tlaquepaque es una ciudad y municipio del Estado de Jalisco, con una población de 608,114 habitantes", @"Ocotlán es una ciudad del estado de Jalisco en México. Es considerada como la capital de los muebles del país",@"Enamórate de Puerto Vallarta, Jalisco, un destino donde encontrarás hermosas playas, sitios históricos, diversión y bellezas naturales",nil];
     
     
-    
-    
-    self.cityPhotos   = [[NSMutableArray alloc] initWithObjects: @"gdl.png", @"zpn.png", @"tlq.png", @"oct.png",@"lbc.jpg",nil];
+    self.cityPhotos   = [[NSMutableArray alloc] initWithObjects: @"gdl.jpg", @"zpn.jpg", @"tlq.jpg", @"oct.jpg",@"ptov.jpg",nil];
     
     
 }
@@ -83,15 +78,22 @@
 //-------------------------------------------------------------------------------
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     self.cityTitleSelected = self.cityTitles[indexPath.row];
-    
+    self.cityDetailsSelected = self.cityDetails[indexPath.row];
     self.cityPhotoSelected = self.cityPhotos[indexPath.row];
     
     
     [self performSegueWithIdentifier:@"CityDetails" sender:self];
 }
 
-
-
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+       if ([segue.destinationViewController isKindOfClass:[CityDetails class]]) {
+           CityDetails *destination     = [segue destinationViewController];
+           destination.CityName        = self.cityTitleSelected;
+           destination.CityPhoto        = self.cityPhotoSelected;
+           destination.CityDetails = self.cityDetailsSelected;
+      }
+}
 
 
 

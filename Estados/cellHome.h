@@ -12,4 +12,7 @@
 @property (strong, nonatomic) IBOutlet UILabel *lblState;
 @property (strong, nonatomic) IBOutlet UIImageView *imgState;
 
+
+
+
 @end

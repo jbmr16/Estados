@@ -74,17 +74,16 @@
 
     self.stPhotoSelected = self.statePhotos[indexPath.row];
     
-    
     [self performSegueWithIdentifier:@"CitySelect" sender:self];
 }
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     
-    if ([segue.destinationViewController isKindOfClass:[City class]]) {
-        City *destination     = [segue destinationViewController];
-        destination.stateTitle        = self.stTitleSelected;
+ //   if ([segue.destinationViewController isKindOfClass:[City class]]) {
+ //       City *destination     = [segue destinationViewController];
+ //       destination.stateTitle        = self.stTitleSelected;
         
-    }
+  //  }
  }
 
 @end
