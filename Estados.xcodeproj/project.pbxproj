@@ -45,6 +45,7 @@
 		619C911E1CFD3F700018B2E1 /* deli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C91191CFD3F700018B2E1 /* deli.jpg */; };
 		619C911F1CFD3F700018B2E1 /* juar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C911A1CFD3F700018B2E1 /* juar.jpg */; };
 		619C91201CFD3F700018B2E1 /* parr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 619C911B1CFD3F700018B2E1 /* parr.jpg */; };
+		619C91221CFD4B1E0018B2E1 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 619C91211CFD4B1E0018B2E1 /* Podfile */; };
 		61CD3D1D1CFCD6E400EAEA73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CD3D1C1CFCD6E400EAEA73 /* main.m */; };
 		61CD3D201CFCD6E400EAEA73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61CD3D1F1CFCD6E400EAEA73 /* AppDelegate.m */; };
 		61CD3D231CFCD6E400EAEA73 /* Estados.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 61CD3D211CFCD6E400EAEA73 /* Estados.xcdatamodeld */; };
@@ -123,6 +124,7 @@
 		619C91191CFD3F700018B2E1 /* deli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = deli.jpg; path = imgs/deli.jpg; sourceTree = "<group>"; };
 		619C911A1CFD3F700018B2E1 /* juar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = juar.jpg; path = imgs/juar.jpg; sourceTree = "<group>"; };
 		619C911B1CFD3F700018B2E1 /* parr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = parr.jpg; path = imgs/parr.jpg; sourceTree = "<group>"; };
+		619C91211CFD4B1E0018B2E1 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		61CD3D171CFCD6E400EAEA73 /* Estados.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Estados.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61CD3D1B1CFCD6E400EAEA73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61CD3D1C1CFCD6E400EAEA73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -237,6 +239,7 @@
 				61CD3D2C1CFCD6E400EAEA73 /* LaunchScreen.xib */,
 				61CD3D211CFCD6E400EAEA73 /* Estados.xcdatamodeld */,
 				61CD3D1A1CFCD6E400EAEA73 /* Supporting Files */,
+				619C91211CFD4B1E0018B2E1 /* Podfile */,
 			);
 			path = Estados;
 			sourceTree = "<group>";
@@ -412,6 +415,7 @@
 				619C90FB1CFD35670018B2E1 /* vill.jpg in Resources */,
 				619C911F1CFD3F700018B2E1 /* juar.jpg in Resources */,
 				619C90E81CFD26410018B2E1 /* mor.jpg in Resources */,
+				619C91221CFD4B1E0018B2E1 /* Podfile in Resources */,
 				61CD3D511CFCEE2A00EAEA73 /* chi.jpg in Resources */,
 				619C90E91CFD26410018B2E1 /* patz.jpg in Resources */,
 				61CD3D591CFCF86100EAEA73 /* cellcity.xib in Resources */,
